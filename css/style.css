@@ -1,0 +1,1836 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.62px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+header.home{
+    background-image:url(../img/Background.png);
+	background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+header.home #searchthis{
+    display: flex;
+    flex-flow: row;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    width: 642px;
+	height: 37px;
+	border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 36px;
+}
+header.home #searchthis div{
+    width: 1px;
+    height: 100%;
+    background-color: #D6D6D6;
+}
+header.home #searchthis #search{
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 1.62px;
+    padding-left: 15px;
+}
+header.home #searchthis #search::placeholder{
+    color: #9b9b9b;
+    font-size: 13px;
+}
+header.home #searchthis #select{
+    height: 100%;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: transparent;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+header.home #searchthis #valid{
+    background: linear-gradient(83deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    width: 20%;
+}
+header.home section{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+}
+header.home section h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-align: left;
+    color: #ffffff;
+    margin-top: -15px;
+}
+header.home section p.pres{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+	font-weight: 500;
+	line-height: 1.38;
+	letter-spacing: 1.5px;
+	text-align: left;
+    color: #ffffff;
+    width: 80%;
+}
+header.home section p.question{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+	letter-spacing: 1.6px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: -25px;
+    margin-top: 40px;
+}
+header.home section p.example{
+    font-size: 10px;
+	font-style: italic;
+	letter-spacing: 1.2px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+main.home .magazine{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+main.home .magazine h2{
+    background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.6px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 60px;
+}
+main.home .magazine .trait{
+    width: 52px;
+    height: 1px;
+	background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+}
+main.home .magazine h3{
+    font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	text-align: center;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+main.home .magazine div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+main.home .magazine div article{
+    width: 540px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+main.home .magazine div article h4{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: left;
+    color: #4a4a4a;
+    margin-top: 7px;
+}
+main.home .magazine div article p{
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+	font-size: 12px;
+	letter-spacing: 0.9px;
+	text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+main.home .magazine div article div{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+main.home .magazine div article div a{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+main.home .magazine div article .trait2{
+    width: 485px;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin-top: 5px;
+}
+main.home .magazine div article .lire{
+    background-image: linear-gradient(83deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1.4px;
+	text-align: left;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+main.home .magazine div article .lire:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+main.home .magazine a.toutvoir{
+    background-image: linear-gradient(77deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.8px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+main.home .magazine a.toutvoir:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+
+
+main.home .annonces{
+    background-image:url(../img/annonces.png);
+	background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+main.home .annonces h5{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+	text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+main.home .annonces .trait{
+    width: 52px;
+	height: 1px;
+    background-color: #e0e0e0;
+    margin-top: -55px;
+}
+main.home .annonces h3{
+    font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+main.home .annonces p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	letter-spacing: 0.8px;
+	text-align: center;
+    color: #ffffff;
+    width: 70%;
+    margin-top: -50px;
+}
+main.home .annonces a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	letter-spacing: 0.8px;
+	text-align: center;
+	color: #ffffff;
+}
+main.home .discover{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+main.home .discover .view-profil{
+    box-shadow: 2px 2px 8px 2px rgba(163, 163, 163, 0.5);
+    margin-bottom: 70px;
+    height: 497px;
+    display: flex;
+    flex-flow: column;
+}
+main.home .discover h2{
+    background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.6px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 60px;
+}
+main.home .discover .trait{
+    width: 52px;
+    height: 1px;
+	background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+}
+main.home .discover h3{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	text-align: center;
+	color: #4a4a4a;
+}
+main.home .id-profil{
+    background-image:url(../img/banner-aurelien.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+}
+main.home .id-profil div{
+    display: flex;
+    flex-flow: row;
+    height: 129px;
+    margin-left: 50px;
+}
+main.home .id-profil div h4{
+    font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1.7px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: -30px;
+}
+main.home .id-profil div h5{
+    font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 0.9px;
+	text-align: left;
+    color: #ffffff;
+    margin-top: -29px;
+    margin-left: -30px;
+    font-weight: 400;
+}
+main.home .id-profil div div{
+    display: flex;
+    flex-flow: column;
+    height: 70%;
+}
+main.home .discover .view-profil p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 1.6px;
+	text-align: left;
+	color: #4a4a4a;
+}
+main.home .discover .view-profil div.tag{
+    margin-left: 50px;
+}
+main.home .discover .view-profil div.tag a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+	font-size: 11px;
+	text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+main.home .discover .view-profil .trait_profil{
+    width: 1020px;
+    height: 1px;
+    background-color: #e5e5e5;
+    align-self: center;
+    margin-top: 25px;
+}
+main.home .discover .view-profil .voir_profil_home{
+    background-image: linear-gradient(77deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+	font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    width: auto;
+    margin: auto;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+}
+main.home .discover .view-profil .voir_profil_home:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+
+
+
+
+
+header.min-header{
+    background-image:url(../img/hero1@2x.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+header.min-header #searchthis{
+    display: flex;
+    flex-flow: row;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    width: 642px;
+	height: 37px;
+	border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 44px;
+}
+header.min-header #searchthis div{
+    width: 1px;
+    height: 100%;
+    background-color: #D6D6D6;
+}
+header.min-header #searchthis #search{
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 1.62px;
+    padding-left: 15px;
+}
+header.min-header #searchthis #search::placeholder{
+    color: #9b9b9b;
+    font-size: 13px;
+}
+header.min-header #searchthis #select{
+    height: 100%;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: transparent;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+header.min-header #searchthis #valid{
+    background: linear-gradient(83deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    width: 20%;
+}
+.search_none_results{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    height: 270px;
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.search_none_results #searchthis{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    width: 642px;
+	height: 37px;
+	border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 36px;
+}
+.search_none_results #searchthis div{
+    width: 1px;
+    height: 100%;
+    background-color: #D6D6D6;
+}
+.search_none_results #searchthis #search{
+    width: 60%;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: 1.62px;
+    padding-left: 15px;
+}
+.search_none_results #searchthis #search::placeholder{
+    color: #9b9b9b;
+    font-size: 13px;
+}
+.search_none_results #searchthis #select{
+    height: 100%;
+    border-radius: 0px;
+    box-shadow: transparent;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+.search_none_results #searchthis #valid{
+    background-image: linear-gradient(83deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    width: 20%;
+}
+header nav{
+    margin-top: 2.7%;
+}
+header nav ul{
+    display: flex;
+    width: 119%;
+    justify-content: space-between;
+    margin-left: -23%;
+    margin-top: -5%;
+}
+header nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    flex-flow: row;
+}
+header .logo{
+    width: 120px;
+    margin-top: 49%;
+}
+
+
+
+footer{
+    background-image:url(../img/background_footer.png);
+	background-size: cover;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer section{
+    height: 140px;
+    display: flex;
+    flex-flow: column;
+}
+footer nav{
+    display: flex;
+    width: 605px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .logo{
+    width: 120px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.6px;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    width: 297px;
+}
+
+.results{
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.results h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.8px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.results .content{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+.results section article{
+    display: flex;
+    flex-flow: column;
+    width: 340px;
+    height: 390px;
+    box-shadow: 2px 2px 8px 2px rgba(163, 163, 163, 0.5);
+    margin-bottom: 5%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.results .content article h2{
+    color: #4a4a4a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+}
+.results .content article h3{
+    color: #9b9b9b;
+    font-size: 11px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1.2rem;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+}
+.results .content .passion{
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+    width: 90%;
+    margin: auto;
+    height: 70px;
+}
+.results .content article .passion a{
+    color: white;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    margin-right: 0.5rem;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 400;
+    font-size: 11px;
+    height: 15px;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+}
+.results .content article .lien_profil{
+    background-image: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    margin-top: -13%;
+}
+.results .content article .lien_profil:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+.results .content article img:first-child{
+    height: 170px;
+    width: 340px;
+    margin-bottom: -48px;
+}
+.results .content article .trait{
+    background-color: #E5E5E5;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    margin-top: -60px;
+}
+.results .content article .trait2{
+    background-color: #E5E5E5;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    margin-top: -35px;
+}
+.results .content article img.profil{
+    width: 60px;
+    height: 60px;
+}
+.results .content article .nom_prenom{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    margin: auto;
+    margin-top: -10%;
+}
+.results .content article .nom_prenom img{
+    margin-top: 1.5%;
+}
+.results .content article .nom_prenom div{
+    margin-left: 4%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+/* MAGAZINE */
+main.magazine section.magazine{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+main.magazine section.magazine h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.8px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+main.magazine section.magazine div{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+main.magazine section.magazine div article{
+    width: 540px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+main.magazine .magazine div article h4{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: left;
+    color: #4a4a4a;
+    margin-top: 7px;
+}
+main.magazine .magazine div article p{
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+	font-size: 12px;
+	letter-spacing: 0.9px;
+	text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+main.magazine .magazine div article div{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+main.magazine .magazine div article div a{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+main.magazine .magazine div article .trait2{
+    width: 485px;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin-top: 5px;
+}
+main.magazine .magazine div article .lire{
+    background-image: linear-gradient(83deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1.4px;
+	text-align: left;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+main.magazine .magazine div article a.lire:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+
+main.magazine .magazine a.toutvoir{
+    background-image: linear-gradient(77deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.8px;
+	text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+main.magazine .magazine img{
+    width: 540px;
+    height: 244px;
+}
+
+
+
+
+
+/* Article */
+main.article .containerArticle{
+    width: 80%;
+    margin: auto;
+}
+
+main.article .profilRedacteur{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 3rem;
+}
+
+main.article .titreArticle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.6rem;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 8rem;
+
+}
+
+main.article .redacteur{
+    border-radius: 100%
+}
+
+
+main.article h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+}
+
+
+
+main.article .profilRedacteur img{
+    width: 3.1rem;
+    height: 3.1rem;
+}
+
+main.article .profilRedacteur a{
+    display: flex;
+
+}
+
+main.article .titreRedacteur{
+    display: flex;
+    flex-flow: column;
+    margin-left: 1rem;
+}
+
+main.article .titreRedacteur p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+
+main.article p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.16rem;
+    line-height: 2.2rem;
+    margin: 0;
+}
+
+main.article .acroche{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.16rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+main.article .titreCorps{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    letter-spacing: 0.16rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+
+}
+
+main.article .partage{
+margin-top: 5rem;
+margin-bottom: 3rem;
+}
+
+main.article .tagArticle{
+    width: 60%;
+    float: right;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-top: -2%;
+}
+main.article .tagArticle a{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+
+main.article .social_network{
+    width: 18%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+main.article .socialIconFacebook{
+    width: 8px;
+    height: 17px;
+}
+main.article .socialIconTwitter{
+    width: 18px;
+    height: 15px;
+}
+main.article .socialIconLinkedin{
+    width: 18px;
+    height: 18px;
+}
+
+main.article .tagEnd{
+    display: flex;
+}
+main.article .titreBasDePage{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    letter-spacing: 0.25rem;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin-top: 8rem;
+    text-transform: uppercase;
+}
+
+main.article h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.16rem;
+    line-height: 2.2rem; 
+    margin-bottom: 0.1rem; 
+}
+
+main.article .traitPartage{
+    width: 12.5rem;
+    height: 0.05rem;
+    margin-bottom: 3rem;
+    background-color: #F4F4F4;
+}
+
+main.article .lireAussi{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+main.article .articleLireAussi{
+    width: 415px;
+    height: 371px;
+    box-shadow: 0 4px 8px 0 rgba(0, 2, 4, 0), 0 6px 17px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 6rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+main.article .articleLireAussi h4{
+    font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.73;
+	letter-spacing: 1.2px;
+	text-align: left;
+    color: #000000;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main.article .articleLireAussi .profilRedacteur{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+main.article .articleLireAussi .titreRedacteur{
+    margin-right: 5px;
+    margin-left: 2px;
+}
+main.article .articleLireAussi .profilRedacteur h5{
+    font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	text-align: left;
+    color: #4a4a4a;
+    margin-top: 10px;
+}
+main.article .articleLireAussi .profilRedacteur p{
+    font-family: 'Raleway', sans-serif;
+	font-size: 9px;
+	font-style: italic;
+	letter-spacing: 0.9px;
+	text-align: left;
+    color: #9b9b9b;
+    margin-top: -10px;
+}
+main.article .articleLireAussi .profilRedacteur .tagSuggestion{
+    display: flex;
+    flex-flow: row;
+    height: 24px;
+}
+main.article .articleLireAussi .profilRedacteur a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: lowercase;
+	text-align: left;
+    color: #ffffff;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 2rem;
+    margin-left: 10px;
+}
+
+main.article .imgArticle{
+    width: 415px;
+    height: 242px;
+}
+main.article li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* Profile et annonces*/
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1.62px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+header.home{
+    background-image:url(../img/Background@2x.png);
+	background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+header.min-header{
+    background-image:url(../img/hero1.png);
+	background-size: cover;
+    height: 272px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+header nav{
+    margin-top: 2.7%;
+}
+header nav ul{
+    display: flex;
+    width: 119%;
+    justify-content: space-between;
+    margin-left: -23%;
+    margin-top: -5%;
+}
+header nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    flex-flow: row;
+}
+header .logo{
+    width: 120px;
+    margin-top: 49%;
+}
+
+
+
+footer{
+    background-image:url(../img/background_footer.png);
+	background-size: cover;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer section{
+    height: 140px;
+    display: flex;
+    flex-flow: column;
+}
+footer nav{
+    display: flex;
+    width: 605px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .logo{
+    width: 120px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.6px;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    width: 297px;
+}
+
+.results{
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.results h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.8px;
+}
+.results .content{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+.results section article{
+    display: flex;
+    flex-flow: column;
+    width: 340px;
+    height: 390px;
+    box-shadow: 2px 2px 8px 2px rgba(163, 163, 163, 0.5);
+    margin-bottom: 5%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.results .content article h2{
+    color: #4a4a4a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+}
+.results .content article h3{
+    color: #9b9b9b;
+    font-size: 11px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -1.2rem;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+}
+.results .content .passion{
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+    width: 90%;
+    margin: auto;
+    height: 70px;
+}
+.results .content article .passion a{
+    color: white;
+    background: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    padding: 4px;
+    margin-right: 0.5rem;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 400;
+    font-size: 11px;
+    height: 15px;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+}
+.results .content article .lien_profil{
+    background-image: linear-gradient(to right, rgba(43, 134, 197, 100), rgba(255, 60, 172, 100));
+    text-align: center;
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    margin-top: -13%;
+}
+.results .content article .lien_profil:hover{
+    background-image: linear-gradient(to right, rgba(255, 60, 172, 100),rgba(43, 134, 197, 100));
+}
+.results .content article img:first-child{
+    height: 170px;
+    width: 340px;
+    margin-bottom: -48px;
+}
+.results .content article .trait{
+    background-color: #E5E5E5;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    margin-top: -60px;
+}
+.results .content article .trait2{
+    background-color: #E5E5E5;
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    margin-top: -35px;
+}
+.results .content article img.profile{
+    width: 50px;
+    height: 50px;
+}
+.results .content article .nom_prenom{
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    margin: auto;
+    margin-top: -10%;
+}
+.results .content article .nom_prenom img{
+    margin-top: 1.5%;
+}
+.results .content article .nom_prenom div{
+    margin-left: 4%;
+    display: flex;
+    flex-flow: column;
+}
+
+@media screen and (max-width: 1440px){
+    header.home{
+       background-image:url(../img/background.png);
+	   background-size: cover;
+    }
+}
+
+/* PAGE ANNONCE */
+
+.annonce h2, .annonce h3, .annonce p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.annonce h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: .18rem;
+    font-size: 1.4rem;
+    text-align: center;
+    background-image: linear-gradient(45deg, #2b86c5, rgba(120, 75, 160, 0.93) 50%, rgba(255, 60, 172, 0.85));    -webkit-background-clip: text;
+    background-size: 10rem 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.annonce h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: #4A4A4A;
+    margin-top: 2rem;
+
+}
+
+.annonce h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #4A4A4A;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+}
+
+.annonce p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: .162rem;
+    color: #4A4A4A;
+    margin-right: 6rem;
+}
+
+.card-annonce {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 1140px;
+    height: 200px;
+    box-shadow: 2px 2px 8px 2px rgba(163, 163, 163, 0.5);
+}
+
+.card-annonce:last-child{
+    margin-bottom: 6rem;
+}
+
+.annonce .wording{
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+}
+
+.annonce .trait{
+    background-color: #E5E5E5;
+    height: .2rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.annonce .wording .tags{
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 2rem;
+}
+.annonce .wording .tags a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    color: white;
+    background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    padding: .4rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0rem;
+    border-radius: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    height: 1.5rem;
+    letter-spacing: 0rem;
+}
+
+
+/**
+* PAGE PROFIL
+**/
+
+.profil {
+    padding-left: 62rem;
+    padding-right: 62rem;
+}
+.header-profil{
+    background-image: url(../img/hero_profile_aurelien.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 50rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: -10rem;
+}
+
+.profil h1, h2, h3, h4, h5, p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.profil a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profil h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: .17rem;
+    text-transform: uppercase;
+}
+
+.profil h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .09rem;
+    margin-top: -1rem;
+    color: white;
+}
+
+.profil .wording-bandeau p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    color: #444444;
+    margin-top: 3.5rem;
+}
+
+.profil .bandeau{
+    display: flex;
+    flex-flow: row;
+
+}
+
+.profil .wording-bandeau{
+    display: flex;
+    flex-flow: column;
+	
+	/*
+    margin-right: 45rem;*/
+}
+
+.profil .bandeau-large {
+    display: flex;
+    flex-flow: row;
+	margin-left: 4rem;
+	width : 80rem;
+	justify-content : space-between;
+}
+
+.profil .bandeau-large a{
+    border: 0rem white solid;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 20rem;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    color: #2b86c5;
+    transition-duration: .5s;
+}
+
+.profil .bandeau-large a:hover{
+    border: 0rem white solid;
+    padding: 2.5rem;
+    background: #2b86c5;
+    border-radius: 20rem;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    color: white;
+}
+
+
+.profil .bandeau img{
+    width: 18rem;
+    height: 18rem;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.20);
+    z-index: 999;
+}
+
+.profil .trait {
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+    height: .1rem;
+    position: relative;
+    margin-top: -1.8rem;
+    z-index: 1;
+    padding: 0 15rem;
+    margin-left: -15rem;
+}
+
+.profil .container-left{
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.profil .duo-card{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 3rem;
+}
+
+.profil .duo-card .card{
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.20);
+    width: 37.5rem;
+    height: 40rem;
+    margin-right: 3rem;
+}
+
+.profil .duo-card img{
+    width: 100%;
+}
+
+.profil .full-largeur{
+    display: flex;
+    flex-flow: row;
+    margin-top: 5rem;
+}
+
+.profil .trait-card{
+    background-color: #E5E5E5;
+    height: .1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.profil .card h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 1rem 3rem 1rem 3rem;
+    color: #4a4a4a;
+    line-height: 1.38;
+    margin: auto;
+}
+
+.profil .tags{
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.profil .tags a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    color: white;
+    background-image: linear-gradient(81deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, #ff3cacd9);
+    padding: .4rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    height: 1.5rem;
+    letter-spacing: 0rem;
+}
+
+.profil .citation{
+    background-image: linear-gradient(74deg, #2b86c5, rgba(120, 75, 160, 0.93) 47%, rgba(255, 60, 172, 0.85));
+    width: 78rem;
+    height: 15rem;
+    box-shadow: .2rem .2rem .8rem .2rem rgba(0, 0, 0, 0.20);
+    margin-bottom: 3rem;
+}
+
+.profil .citation h4{
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .18rem;
+    color: #ffffff;
+
+}
+
+.profil .citation p{
+    margin-right: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: .18rem;
+    color: #ffffff;
+    text-align: right;
+}
+
+.profil .competence{
+    width: 78rem;
+    height: 32.4rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.20);
+    padding: 2rem 3rem 2rem 3rem;
+    margin-bottom: 3rem;
+}
+
+.profil .competence th{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: .18rem;
+    text-align: left;
+    color: #4a4a4a;
+    border-bottom: solid 0.8px #e5e5e5;
+}
+
+.profil .competence td{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .18rem;
+    text-align: left;
+    color: #4a4a4a;
+    border-bottom: solid 0.8px #e5e5e5;
+
+}
+
+.profil .video{
+    position: relative;
+    width: 78rem;
+    height: 44rem;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.50);
+}
+
+
+.profil h5{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+.profil .trait-right{
+    background-color: #E5E5E5;
+    height: .1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.profil .presentation p{
+    width: 30rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+    letter-spacing: .16rem;
+    text-align: left;
+    color: #4a4a4a;
+    margin-bottom: 3rem;
+}
+
+.profil .parcours li{
+    list-style-type: none;
+}
+
+.profil .parcours p{
+    width: 30rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    letter-spacing: .16rem;
+    text-align: left;
+    color: #4a4a4a;
+    margin-bottom: .5rem;
+}
+
+.profil .parcours span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .09rem;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.profil .parcours ul, h5{
+    padding-left: 0;
+}
+
+.profil .container-icons{
+    display: flex;
+    flex-flow: column;
+}
+
+.profil .icons-social{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.profil .icons-social a{
+    color: #4A4A4A;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    transition-duration: .3s;
+}
+
+.profil .icons-social a:hover{
+    color: #2b86c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px){
+    header.home{
+       background-image:url(../img/Background.png);
+	   background-size: cover;
+    }
+    header.min-header{
+        background-image:url(../img/hero1.png);
+    }
+    
+    
+}
